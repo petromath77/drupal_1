@@ -1,0 +1,41 @@
+.menu_wrapper {
+    background-color: rgb(39, 39, 39);
+}
+.main-menu {
+    max-width: 1140px;
+}
+.header {
+    background: url('../images/head_bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+}
+.header-inner {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.view-slideshow {
+    min-height: 295px;
+    padding: 20px;
+    background-color: #ccc;
+}
+.views-row {
+    position: relative;
+    width: 100%;
+}
+.views-field-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.views-field-body {
+    width: 45%;
+    text-align: justify;
+}
+.views-field-field-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+.views-field-field-image img {
+    max-width: 100%;
+}
