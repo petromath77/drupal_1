@@ -1,3 +1,6 @@
+#container {
+    max-width: 1140px;
+}
 .menu_wrapper {
     background-color: rgb(39, 39, 39);
 }
@@ -13,7 +16,7 @@
     max-width: 1140px;
     margin: 0 auto;
 }
-.view-slideshow {
+.view-slideshow1 {
     min-height: 295px;
     padding: 20px;
     background-color: #ccc;
@@ -38,4 +41,22 @@
 }
 .views-field-field-image img {
     max-width: 100%;
+}
+
+#block-menu-menu-service-menu, #block-block-1, #block-block-2 {
+    width: 32%;
+    float: left;
+}
+#block-block-1 {
+    margin-right: 4%; 
+    text-align: justify;
+}
+#block-block-2::after {
+    content: " ";
+    display: block;
+    clear: both;
+
+}
+.content.node-page {
+    clear: both; 
 }
